@@ -19,6 +19,6 @@ export default {
     },{
         image:TwitterSvg,
         title:"Official",
-        url:"https://twitter.com/SpacePi_Com"
+        url:"https://x.com/SpacePi_Com"
     }]
 }

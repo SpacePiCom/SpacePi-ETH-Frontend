@@ -29,15 +29,15 @@ export default {
           data: [
               {
                   title: 'Глобальное сообщество в Twitter',
-                  url: 'https://twitter.com/SpacePi_Com'
+                  url: 'https://x.com/SpacePi_Com'
               },
               {
                   title: 'Корейское сообщество в Twitter',
-                  url: 'https://twitter.com/SpacePiTV'
+                  url: 'https://x.com/SpacePiTV'
               },
               {
                   title: 'Китайское сообщество в Twitter',
-                  url: 'https://twitter.com/SpacePiCn'
+                  url: 'https://x.com/SpacePiCn'
               }
           ]
       }

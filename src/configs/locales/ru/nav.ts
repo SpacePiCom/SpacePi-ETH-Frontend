@@ -77,7 +77,7 @@ export default [
       },
       {
         name: 'Официальный Твиттер',
-        url: 'https://twitter.com/SpacePi_Com',
+        url: 'https://x.com/SpacePi_Com',
         target: '_blank'
       }
     ]

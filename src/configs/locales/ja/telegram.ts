@@ -23,7 +23,7 @@ export default {
         {
             image: TwitterSvg,
             title: "Twitter",
-            url: "https://twitter.com/SpacePi_Com"
+            url: "https://x.com/SpacePi_Com"
         }
     ]
 }
