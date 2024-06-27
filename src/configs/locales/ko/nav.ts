@@ -6,6 +6,12 @@ export default [
     data: []
   },
   {
+    name: 'Github',
+    url: 'https://github.com/SpacePiCom',
+    target: '_blank',
+    data: []
+  },
+  {
     name: '백서',
     url: 'https://x.space-pi.com',
     target: '_blank',
