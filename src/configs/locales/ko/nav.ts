@@ -19,7 +19,7 @@ export default [
   },
   {
     name: '스테이킹',
-    url: 'https://mine.space-pi.com/#/',
+    url: 'https://stake.space-pi.com/#/',
     target: '_blank',
     data: []
   },
