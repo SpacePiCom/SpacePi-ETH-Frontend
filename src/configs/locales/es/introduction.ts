@@ -1,0 +1,4 @@
+export default {
+  title: ['SpacePi y', ' Pi Network'],
+  text: "Como parte del ecosistema de Pi Network, la esencia de SpacePi y su posición como un impulsor clave del valor y el futuro de Pi Network influyen significativamente en la conciencia global, los escenarios de aplicación y el valor de Pi Network. Al aprovechar el poder de una comunidad sólida y un mecanismo de consenso, SpacePi mejora la liquidez y la diversidad de Pi Network, y se comercializa estratégicamente para aumentar su prominencia global. \n\n Mientras Musk sueña con establecer la civilización humana en Marte, la comunidad de SpacePi empuja los límites de la cultura y la tecnología en el mundo digital con creatividad y tecnología. Exploran el futuro digital en internet, ansiosos por innovar y abrir nuevas posibilidades. Creen que la tecnología es el motor del futuro."
+}

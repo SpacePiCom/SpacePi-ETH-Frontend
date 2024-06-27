@@ -1,0 +1,4 @@
+export default {
+  title: ['SpacePi et', ' Pi Network'],
+  text: "En tant que partie intégrante de l'écosystème de Pi Network, l'essence de SpacePi et sa position en tant que moteur clé de la valeur et de l'avenir de Pi Network influencent significativement la prise de conscience mondiale, les scénarios d'application et la valeur de Pi Network. En exploitant le pouvoir d'une communauté forte et d'un mécanisme de consensus, SpacePi renforce la liquidité et la diversité de Pi Network, et se positionne de manière stratégique pour accroître sa notoriété mondiale. \n\n Alors que Musk rêve d'établir une civilisation humaine sur Mars, la communauté SpacePi repousse les limites de la culture et de la technologie dans le monde numérique avec créativité et technologie. Ils explorent l'avenir numérique sur Internet, désireux d'innover et d'ouvrir de nouvelles possibilités. Ils croient que la technologie est le moteur de l'avenir."
+}

@@ -1,0 +1,4 @@
+export default {
+  title: ['SpacePi and', ' Pi Network'],
+  text: "As a part of the Pi Network ecosystem, SpacePi's essence and its position as a key driver of Pi Network's value and future significantly influence the global awareness, application scenarios, and value of Pi Network. By harnessing the power of a strong community and consensus mechanism, SpacePi enhances the liquidity and diversity of Pi Network, and strategically markets to increase its global prominence. \n\n While Musk dreams of establishing human civilization on Mars, the SpacePi community pushes the boundaries of culture and technology in the digital world with creativity and technology. They explore the digital future on the internet, eager to innovate and open up new possibilities. They believe technology is the engine of the future."
+}
