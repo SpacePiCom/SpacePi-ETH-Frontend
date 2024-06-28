@@ -2,6 +2,10 @@
 
 To promote the decentralization process of SpacePi, the official website of SpacePi(ETH) is now open source.
 
+# Legal Disclaimer
+
+The SpacePi code released on this website (space-pi.com) is open-sourced solely to promote community development. Any actions taken by third parties, including but not limited to any community, organization, or individual, using this code for any statements, inducements, investments, promotions, or similar activities, are not associated with this website. This website is not responsible for any losses or legal consequences arising from such actions and does not assume any liability in any form.
+
 ## Installation Steps
 
 1. Clone the repository to your local machine
@@ -10,7 +14,7 @@ To promote the decentralization process of SpacePi, the official website of Spac
     ```
 2. Navigate to the project directory
     ```sh
-    cd SpacePi_ETH
+    cd SpacePi-ETH-Frontend
     ```
 3. Install dependencies
     ```sh
