@@ -2,8 +2,9 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react-swc'
 import path from 'path'
 import { createSvgIconsPlugin } from 'vite-plugin-svg-icons'
+
 // process.env['REACT_APP_BASEURL'] = 'https://ethpage.space-pi.com/'
-process.env['REACT_APP_BASEURL'] = '/'
+process.env['REACT_APP_BASEURL'] = ''
 process.env["API_URL"] = 'https://space-pi.com/api'
 
 // https://vitejs.dev/config/

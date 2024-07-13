@@ -344,11 +344,10 @@ export default function Index() {
     return (totalSupply / 1e9).toFixed(2) + ' B' 
   }
   const getCirculation = async () => {
-    // let provider = ethers.getDefaultProvider()
     const multicall = new Multicall({
       nodeUrl: 'https://rpc.mevblocker.io',
       tryAggregate: true
-    })
+    });
 
     const multicallData = {
       reference: contractAddress,
@@ -371,23 +370,39 @@ export default function Index() {
           methodParameters: []
         }
       ]
-    }
-    const { results } = await multicall.call(multicallData)
-    const obj: any = {}
+    };
+
+    const { results } = await multicall.call(multicallData);
+    const obj: any = {};
     Object.values(results).map((item: any) => {
       item.callsReturnContext.map((child: any) => {
-        const returnValue = child.returnValues[0]
+        const returnValue = child.returnValues[0];
         if (typeof returnValue === 'object') {
-          obj[child.reference] = ethers.BigNumber.from(returnValue)
-          return
+          obj[child.reference] = ethers.BigNumber.from(returnValue);
+          return;
         }
-        obj[child.reference] = returnValue
-      })
-    })
+        obj[child.reference] = returnValue;
+      });
+    });
 
-    let value = obj.totalSupply.sub(obj.balanceOf)
-    return value.div(ethers.BigNumber.from('10').pow(obj.decimals)).toNumber()
-  }
+    // console.log('Total Supply:', obj.totalSupply.toString());
+    // console.log('Balance Of Blackhole Address:', obj.balanceOf.toString());
+    // console.log('Decimals:', obj.decimals.toString());
+
+    let value = obj.totalSupply.sub(obj.balanceOf);
+    const fixedValue = ethers.BigNumber.from('47372305860216');
+
+    const fixedValueInDecimals = fixedValue.mul(ethers.BigNumber.from('10').pow(obj.decimals));
+    value = value.sub(fixedValueInDecimals);
+
+    // console.log('Calculated Value After Subtraction:', value.toString());
+
+    const circulation = value.div(ethers.BigNumber.from('10').pow(obj.decimals)).toNumber();
+    // console.log('Circulation:', circulation);
+    
+    return circulation;
+}
+
   const init = async () => {
     setCircula(formatToken('0'))
     setHolder('0')
