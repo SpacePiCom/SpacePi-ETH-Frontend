@@ -5,7 +5,7 @@ import { createSvgIconsPlugin } from 'vite-plugin-svg-icons'
 
 // process.env['REACT_APP_BASEURL'] = 'https://ethpage.space-pi.com/'
 process.env['REACT_APP_BASEURL'] = ''
-process.env["API_URL"] = 'https://space-pi.com/api'
+process.env["API_URL"] = 'https://eth.space-pi.com/api'
 
 // https://vitejs.dev/config/
 export default defineConfig({

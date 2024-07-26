@@ -1,5 +1,5 @@
 export default {
-  title: 'Meme 和 Pi 二層',
+  title: 'SpaceX 在 MEME 中遇見 Pi',
   text: "SpacePi (ETH)是由虔誠的 Pi Network 成員自發組織的 Meme 代幣，旨在促進 Pi Network 生態系統的發展。",
   bnt1: {
     title: '購買 SpacePi',

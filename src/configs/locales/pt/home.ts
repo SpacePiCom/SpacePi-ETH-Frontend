@@ -1,5 +1,5 @@
 export default {
-  title: 'Meme e Pi Layer2',
+  title: 'SpaceX encontra Pi em MEME',
   text: "SpacePi (ETH) é uma memecoin auto-organizada por membros devotos da Pi Network para promover o ecossistema da Pi Network.",
   bnt1: {
       title: 'Buy SpacePi',
