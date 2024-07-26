@@ -28,7 +28,7 @@ export default {
           title: 'X/Twitter',
           data: [
               {
-                  title: 'グローバルX/Twitter',
+                  title: 'X/Twitter',
                   url: 'https://x.com/SpacePi_Com'
               },
               {
@@ -44,12 +44,12 @@ export default {
   ],
   links: [
       {
-          title: 'SpacePi ETH ステーキング',
+          title: 'SpacePi ETH',
           url: 'https://eth.space-pi.com'
       },
       {
-          title: 'SpacePi BSC 公式ウェブサイト',
-          url: 'https://bsc.space-pi.com'
+          title: 'SpacePi',
+          url: 'https://space-pi.com'
       }
   ]
 }

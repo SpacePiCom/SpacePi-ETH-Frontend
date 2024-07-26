@@ -44,12 +44,12 @@ export default {
   ],
   links: [
     {
-      title: 'SpacePi ETH 스테이킹',
+      title: 'SpacePi ETH',
       url: 'https://eth.space-pi.com'
     },
     {
-      title: 'SpacePi BSC 공식 웹사이트',
-      url: 'https://bsc.space-pi.com'
+      title: 'SpacePi',
+      url: 'https://space-pi.com'
     }
   ]
 }
