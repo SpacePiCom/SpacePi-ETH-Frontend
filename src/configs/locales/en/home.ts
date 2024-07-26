@@ -10,8 +10,8 @@ export default {
     url: 'https://coinmarketcap.com/currencies/spacepi-eth/'
   },
 
-  crossChain: '=>SOL',
-  crossChainUrl:"https://sol.space-pi.com/",
+  crossChain: 'SpacePi',
+  crossChainUrl:"https://space-pi.com/",
   totalCirculation: 'Total Supply',
   numberOfHolders: 'Holders',
   currentPrice: 'Price',

@@ -9,8 +9,8 @@ export default {
     title: 'CMC',
     url: 'https://coinmarketcap.com/currencies/spacepi-eth/'
   },
-  crossChain: '=>SOL',
-  crossChainUrl:"https://sol.space-pi.com/",
+  crossChain: 'SpacePi',
+  crossChainUrl:"https://space-pi.com/",
   totalCirculation: '총 공급량',
   numberOfHolders: '보유자 수',
   currentPrice: '현재 가격',
