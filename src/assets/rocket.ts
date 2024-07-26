@@ -2,7 +2,7 @@ const jsonType = () => {
   const baseUrl =
     import.meta.env.MODE === 'development' ?
       'rocket/'
-    : 'https://ethpage.space-pi.com/rocket/'
+    : 'https://eth.space-pi.dev/rocket/'
   return {
     v: '5.6.9',
     fr: 30,
